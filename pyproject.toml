@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aid-neurips-2024"
+version = "0.1.0"
+description = ""
+authors = ["Sean Perry <sean.hyatt.perry@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pyha = {path = "../pyha"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
