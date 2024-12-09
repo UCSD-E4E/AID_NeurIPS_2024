@@ -1,13 +1,14 @@
 [tool.poetry]
-name = "aid-neurips-2024"
+name = "AID_NeurIPS_2024"
+package-mode = false
 version = "0.1.0"
 description = ""
 authors = ["Sean Perry <sean.hyatt.perry@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.11"
-pyha = {path = "../pyha"}
+python=">=3.9,<3.11"
+pyha = {path = "PyHa"}
 
 
 [build-system]
